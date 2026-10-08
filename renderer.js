@@ -30,7 +30,7 @@ class DrawingApp {
     this.picker = new Picker({
       parent: parent,
       color: this.currentColor,
-      popup: "bottom",
+      popup: false,
     });
 
     this.picker.onChange = (color) => {
